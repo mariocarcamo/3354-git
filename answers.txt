@@ -1,0 +1,9 @@
+(a) How many commits exist in the repository history after completing step 8 (In- cluding commits made by the original author)?
+8 commits(b) When was the file .gitignore added?
+After deleting DELETEME.txt(c) What is the difference between git log and git status?
+Git log shows you the commit history
+Git Status shows the differences between the index file and the current file(d) What is the difference between unstaged and untracked files?
+An untracked file is a file that exists in the working tree of a git while an unstaged file is lister in the index but different as the working tree(e) What is the difference between git checkout and git reset?
+Git checkout updates file in the working tree to match the one in the index, while a git reset, resets the index entries for all paths but doesn’t affect the working tree.
+(f) What happens if you try to pull remote changes when there are uncommitted changes in your working directory?
+You can’t. It will show an error saying the working copy has uncommitted changes.
