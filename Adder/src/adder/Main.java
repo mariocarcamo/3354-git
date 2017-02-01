@@ -7,8 +7,10 @@ public class Main {
             int result = addArguments(args);
             System.out.println(result);
         } catch (Exception e) {
-            System.err.println("Please provide two integers to add");
+            System.err.println("Please provide integers to add");
         }
+	catch (ArraIndexOutOfBoundsException e) {
+            System.err.println(“Array not enough Arguments“);
     }
 
     private static int addArguments(String[] args) {
